@@ -21,16 +21,16 @@ For this example, we'll import a series of 300 points from the data folder as an
 ```python
 #run this cell as-is
 
+#used for testing
+from test_scripts.test_class import Test
+test = Test()
+
 #data manip
 import numpy as np
 
 #data import
 X = test.load_ind('X')
 y = test.load_ind('y')
-
-#used for testing
-from test_scripts.test_class import Test
-test = Test()
 ```
 
 
